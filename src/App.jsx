@@ -116,8 +116,7 @@ const arrWeek = calendar.getWeek()
              if(item == dateWeekNow){
                return <Days color={'#eee'} radius={'50%'} background={'rgb(230, 51, 51)'} size={'1.4rem'}>{item}</Days>
             } else {
-               return <Days size={'1.4rem'}>{item}</Days>
-               
+               return <Days size={'1.4rem'}>{item}</Days> 
             }
            })}
           
